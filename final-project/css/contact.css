@@ -1,0 +1,142 @@
+header {
+	background-color: #ddff99;
+	color: #009966;
+	text-shadow: 0px 0px 3px 0px white;
+}
+
+header h1 {
+	font-family: 'Questrial';
+	font-weight: 100px;
+	font-style: bold;
+	font-size: 60px;
+}
+
+header nav li {
+	display: inline-block;
+	margin-left: 20px;
+	font-family: 'Questrial';
+	font-style: bold;
+	font-size: 30px;
+}
+
+nav li a {
+	text-decoration: none;
+	color: #009966;
+}
+
+nav li a:hover {
+	background-color: #ffb3da;
+}
+
+nav li a:visited {
+	text-decoration: none;
+	color: #009966;
+}
+
+.dropdown {
+	display: inline-block;
+}
+
+a.drop-button {
+	cursor: pointer;
+}
+
+.dropdown-content {
+	display: none;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	margin-left: 20px;
+	position: absolute;
+	background-color: #ddff99;
+	width: 20%;
+	z-index: 1;
+}
+
+.dropdown-content li {
+	display: block;
+	text-align: center;
+	margin: 12px 5px;
+}
+
+.dropdown-content a {
+	text-decoration: none;
+}
+
+.dropdown-content li:hover {
+	background-color: #ffb3da;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+} 
+
+header nav {
+	margin-left: 540px;
+}
+
+body {
+	font-family: 'Questrial';
+}
+
+section {
+	height: 30em;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: url('../img/wafu-background.jpg') no-repeat;
+	padding-left: 50px;
+	font-size: 1.5em;
+}
+
+h2 {
+	font-size: 3em;
+}
+
+form div {
+	line-height: 2em;
+	padding-top: 20px;
+}
+
+#submit-button {
+	margin-top: 25px;
+	margin-left: 720px;
+	border-radius: 8px;
+	padding: 6px 20px;
+	background-color: #00b377;
+	cursor: pointer;
+	color: white;
+	font-size: 1.1em;
+}
+
+span#thank {
+	display: none;
+}
+
+footer {
+	text-align: center;
+	padding: 2em 0 1.5em 0;
+	font-family: 'Questrial';
+	background-color: #99ffbb;
+	color: #008055;
+}
+
+footer h1 {
+	font-size: 2.2em;
+	font-weight: 800;
+	text-decoration: none;
+}
+
+footer a {
+	text-decoration: none;
+	color: #008055;
+}
+
+footer img {
+	margin-left: 1.5em;
+}
+
+.weibo-logo {
+	margin-bottom: -2em;
+}
+
+footer p {
+	padding-top: 1.5em;
+}

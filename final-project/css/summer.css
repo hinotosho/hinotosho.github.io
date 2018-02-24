@@ -1,0 +1,202 @@
+header {
+	background-color: #ddff99;
+	color: #009966;
+	text-shadow: 0px 0px 3px 0px white;
+}
+
+header h1 {
+	font-family: 'Questrial';
+	font-weight: 100px;
+	font-style: bold;
+	font-size: 60px;
+}
+
+header nav li {
+	display: inline-block;
+	margin-left: 20px;
+	font-family: 'Questrial';
+	font-style: bold;
+	font-size: 30px;
+}
+
+nav li a {
+	text-decoration: none;
+	color: #009966;
+}
+
+nav li a:hover {
+	background-color: #ffb3da;
+}
+
+nav li a:visited {
+	text-decoration: none;
+	color: #009966;
+}
+
+.dropdown {
+	display: inline-block;
+}
+
+a.drop-button {
+	cursor: pointer;
+}
+
+.dropdown-content {
+	display: none;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	margin-left: 20px;
+	position: absolute;
+	background-color: #ddff99;
+	width: 20%;
+	z-index: 1;
+}
+
+.dropdown-content li {
+	display: block;
+	text-align: center;
+	margin: 12px 5px;
+}
+
+.dropdown-content a {
+	text-decoration: none;
+}
+
+.dropdown-content li:hover {
+	background-color: #ffb3da;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+} 
+
+header nav {
+	margin-left: 540px;
+}
+
+.ei_menu {
+	background: #ffb3b3;
+	width: 100%;
+	overflow: hidden;
+}
+
+.ei_menu ul {
+	height: 800px;
+	margin-left: 50px;
+	position: relative;
+	display: block;
+	width: 1300px;
+}
+
+.ei_menu ul li {
+	float: left;
+	width: 250px;
+	height: 800px;
+	position: relative;
+	overflow: hidden;
+	border-right: 2px solid #f7e6ff;
+}
+
+.ei_preview {
+	width: 250px;
+	height: 800px;
+	cursor: pointer;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: transparent url('../img/kisetsu-summer-ryori-bw.jpg') no-repeat top left;
+	background-size: cover;
+}
+
+.ei_image {
+	position: absolute;
+	left: 75px;
+	top: 0px;
+	width: 250px;
+	height: 800px;
+	opacity: 0.2;
+	background: transparent url('../img/kisetsu-summer-ryori-color.jpg') no-repeat top left;
+	background-size: cover;
+}
+
+.pos1 span {
+	background-position: -90px 0px;
+}
+
+.pos2 span {
+	background-position: -520px 0px;
+}
+
+.pos3 span {
+	background-position: -1030px 0px;
+}
+
+.ei_descr {
+	position: absolute;
+	width: 650px;
+	height: 800px;
+	border-right: 7px solid #f0f0f0;
+	padding: 20px;
+	left: 250px;
+	top: 0px;
+	background: #ffb3b3;
+}
+
+.ei_descr h2 {
+	font-family: 'Lobster Two', arial;
+	font-size: 2.5em;
+	color: #2e2e1f;
+	padding: 10px;
+	text-shadow: 0px 0px 2px #e60000;
+	background-color: #e0e0d1;
+}
+
+.ei_descr h3 {
+	font-family: 'Oleo Script', arial, serif;
+	font-size: 2em;
+	color: #fff;
+	text-shadow: 0px 0px 2px #000;
+	font-style: normal;
+	padding: 10px;
+	background: #00cccc;
+}
+
+.ei_descr p {
+	color: #000;
+	font-family: 'Comfortaa', arial;
+	padding: 10px 5px 0px 5px;
+	line-height: 25px;
+	font-size: 1em;
+	text-transform: uppercase; 
+	width: 350px;
+}
+
+footer {
+	text-align: center;
+	padding: 2em 0 1.5em 0;
+	font-family: 'Questrial';
+	background-color: #99ffbb;
+	color: #008055;
+}
+
+footer h1 {
+	font-size: 2.2em;
+	font-weight: 800;
+	text-decoration: none;
+}
+
+footer a {
+	text-decoration: none;
+	color: #008055;
+}
+
+footer img {
+	margin-left: 1.5em;
+}
+
+.weibo-logo {
+	margin-bottom: -2em;
+}
+
+footer p {
+	padding-top: 1.5em;
+}
